@@ -1,0 +1,172 @@
+* {
+    font-family: Inter;
+    font-size: 22px;
+    color:rgba(255,255,255,0.9);
+    background-color: black;
+    text-align: center;
+}
+
+body {
+    all: unset;
+}
+
+h1 {
+
+}
+
+h2 {
+ font-size: 32px;
+ font-weight: bold;
+ margin: none;
+}
+
+h3 {
+
+}
+
+h4 {
+    font-weight: bold;
+    margin: none;
+}
+
+h5 {
+    
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 1;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+    opacity: 0.9;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.9;
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: row;
+}
+
+.navmenuitem {
+    margin: 0px 10px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+   }
+
+.hero {
+    background-image: url('../Images/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    background-color: black;
+    width: 100%;
+}
+
+.hero-text h2, .hero-text h4{
+    margin: 8px 8px;
+}
+
+
+
+.teaofthemonth {
+    margin-top: 50px;
+}
+
+.teacards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.teacard img{
+    height: 200px;
+    width: 300px;
+}
+
+.teacard {
+    margin: 10px;
+}
+
+.teacard h4{
+ line-height: normal;
+ margin: 10px 0px 10px 0px;
+}
+
+.locations {
+    margin-top: 48px;
+    width: 100%;
+    background-image: url('../Images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.locations h2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.locationcards {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.locationcard{
+    width: 300px;
+    margin: 0px 8px;
+}
+
+.locations h2{
+    background-color: transparent;
+}
+
+.contact p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+footer{
+    display:flex;
+}
+
+footer p {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
